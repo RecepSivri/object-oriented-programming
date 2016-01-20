@@ -1,0 +1,281 @@
+------------------------Testing For cp Function---------------------------
+8.invalid copy processing!
+10.invalid copy processing!
+------------------------Testing For ls() Function---------------------------
+---Testing ls() with no parameter:----
+From dir1:
+deneme   dir2   
+
+From dir2:
+deneme2   dir3   
+
+From dir3:
+java   dir4   
+
+for C++ Executable File:
+C++
+
+for deneme Text File:
+deneme
+---Testing ls() with -a parameter:----
+From dir1:
+. .. deneme   dir2   
+
+From dir2:
+. .. deneme2   dir3   
+
+From dir3:
+. .. java   dir4   
+
+for C++ Executable File:
+C++
+
+for deneme Text File:
+deneme
+
+----Testing ls() with -l parameter:----
+From dir1:
+deneme -rw-rw-r-- Sivri 213 01 12 2015 
+dir2 drwxrwxr-x Sivri 14 04 01 2014 
+
+
+From dir4:
+C++ -rwxrwxr-x Recep 123 01 11 2015 
+deneme3 -rw-rw-r-- Recep 225 17 12 2015 
+dir5 drwxrwxr-x Sivri 20 15 06 2013 
+
+
+From dir6:
+deneme4 -rw-rw-r-- Recep 224 18 12 2015 
+mips -rwxrwxr-x Sivri 15 08 12 2014 
+verilog -rwxrwxr-x Sivri 55 15 12 2014 
+deneme5 -rw-rw-r-- Recep 124 28 12 2015 
+
+
+for java Executable File:
+java -rwxrwxr-x Sivri 125 05 12 2014 
+
+for deneme2 Text File:
+deneme2 -rw-rw-r-- Recep 22 12 12 2015 
+
+---Testing ls() with -R parameter:---
+From dir3:
+dir1/dir2/dir3:
+java dir4 
+dir1/dir2/dir3/dir4:
+C++ deneme3 dir5 
+dir1/dir2/dir3/dir4/dir5:
+lisp dir6 
+dir1/dir2/dir3/dir4/dir5/dir6:
+deneme4 mips verilog deneme5 
+
+From dir4:
+dir1/dir2/dir3/dir4:
+C++ deneme3 dir5 
+dir1/dir2/dir3/dir4/dir5:
+lisp dir6 
+dir1/dir2/dir3/dir4/dir5/dir6:
+deneme4 mips verilog deneme5 
+
+From dir5:
+dir1/dir2/dir3/dir4/dir5:
+lisp dir6 
+dir1/dir2/dir3/dir4/dir5/dir6:
+deneme4 mips verilog deneme5 
+
+for java Executable File:
+java
+
+for deneme2 Text File:
+deneme2
+
+
+----Testing ls() with -Rl or -lR parameter:----
+From dir2:
+
+
+dir1/dir2
+
+deneme2 -rw-rw-r-- Recep 22 12 12 2015 
+dir3 drwxrwxr-x  Sivri 17 05 10 2014 
+
+
+dir1/dir2/dir3
+
+java -rwxrwxr-x  Sivri 125 05 12 2014 
+dir4 drwxrwxr-x  Sivri 19 07 09 2015 
+
+
+dir1/dir2/dir3/dir4
+
+C++ -rwxrwxr-x  Recep 123 01 11 2015 
+deneme3 -rw-rw-r-- Recep 225 17 12 2015 
+dir5 drwxrwxr-x  Sivri 20 15 06 2013 
+
+
+dir1/dir2/dir3/dir4/dir5
+
+lisp -rwxrwxr-x  Sivri 25 25 12 2014 
+dir6 drwxrwxr-x  Sivri 123 15 08 2014 
+
+
+dir1/dir2/dir3/dir4/dir5/dir6
+
+deneme4 -rw-rw-r-- Recep 224 18 12 2015 
+mips -rwxrwxr-x  Sivri 15 08 12 2014 
+verilog -rwxrwxr-x  Sivri 55 15 12 2014 
+deneme5 -rw-rw-r-- Recep 124 28 12 2015 
+
+
+From dir3:
+
+
+dir1/dir2/dir3
+
+java -rwxrwxr-x  Sivri 125 05 12 2014 
+dir4 drwxrwxr-x  Sivri 19 07 09 2015 
+
+
+dir1/dir2/dir3/dir4
+
+C++ -rwxrwxr-x  Recep 123 01 11 2015 
+deneme3 -rw-rw-r-- Recep 225 17 12 2015 
+dir5 drwxrwxr-x  Sivri 20 15 06 2013 
+
+
+dir1/dir2/dir3/dir4/dir5
+
+lisp -rwxrwxr-x  Sivri 25 25 12 2014 
+dir6 drwxrwxr-x  Sivri 123 15 08 2014 
+
+
+dir1/dir2/dir3/dir4/dir5/dir6
+
+deneme4 -rw-rw-r-- Recep 224 18 12 2015 
+mips -rwxrwxr-x  Sivri 15 08 12 2014 
+verilog -rwxrwxr-x  Sivri 55 15 12 2014 
+deneme5 -rw-rw-r-- Recep 124 28 12 2015 
+
+
+From dir5:
+
+
+dir1/dir2/dir3/dir4/dir5
+
+lisp -rwxrwxr-x  Sivri 25 25 12 2014 
+dir6 drwxrwxr-x  Sivri 123 15 08 2014 
+
+
+dir1/dir2/dir3/dir4/dir5/dir6
+
+deneme4 -rw-rw-r-- Recep 224 18 12 2015 
+mips -rwxrwxr-x  Sivri 15 08 12 2014 
+verilog -rwxrwxr-x  Sivri 55 15 12 2014 
+deneme5 -rw-rw-r-- Recep 124 28 12 2015 
+
+
+for mips Executable File:
+mips -rwxrwxr-x Sivri 15 08 12 2014 
+
+for deneme3 Text File:
+deneme3 -rw-rw-r-- Recep 225 17 12 2015 
+
+
+---Testing ls() with -Ra or -aR parameter:----
+From dir2:
+dir1/dir2:
+. .. deneme2 dir3 
+
+dir1/dir2/dir3:
+
+. .. java dir4 
+
+dir1/dir2/dir3/dir4:
+
+. .. C++ deneme3 dir5 
+
+dir1/dir2/dir3/dir4/dir5:
+
+. .. lisp dir6 
+
+dir1/dir2/dir3/dir4/dir5/dir6:
+
+. .. deneme4 mips verilog deneme5 
+
+From dir3:
+dir1/dir2/dir3:
+. .. java dir4 
+
+dir1/dir2/dir3/dir4:
+
+. .. C++ deneme3 dir5 
+
+dir1/dir2/dir3/dir4/dir5:
+
+. .. lisp dir6 
+
+dir1/dir2/dir3/dir4/dir5/dir6:
+
+. .. deneme4 mips verilog deneme5 
+
+From dir5:
+dir1/dir2/dir3/dir4/dir5:
+. .. lisp dir6 
+
+dir1/dir2/dir3/dir4/dir5/dir6:
+
+. .. deneme4 mips verilog deneme5 
+
+for mips Executable File:
+mips
+
+for deneme3 Text File:
+deneme3
+
+
+---Testing ls() with -la or -al parameter:---
+From dir2:
+. drwxrwxr-x Recep 22 12 12 2015 
+.. drwxrwxr-x Recep 22 12 12 2015 
+deneme2 -rw-rw-r-- Recep 22 12 12 2015 
+dir3 drwxrwxr-x Sivri 17 05 10 2014 
+
+
+From dir3:
+. drwxrwxr-x Sivri 125 05 12 2014 
+.. drwxrwxr-x Sivri 125 05 12 2014 
+java -rwxrwxr-x Sivri 125 05 12 2014 
+dir4 drwxrwxr-x Sivri 19 07 09 2015 
+
+
+From dir5:
+. drwxrwxr-x Sivri 25 25 12 2014 
+.. drwxrwxr-x Sivri 25 25 12 2014 
+lisp -rwxrwxr-x Sivri 25 25 12 2014 
+dir6 drwxrwxr-x Sivri 123 15 08 2014 
+
+
+for mips Executable File:
+mips -rwxrwxr-x Sivri 15 08 12 2014 
+
+for deneme3 Text File:
+deneme3 -rw-rw-r-- Recep 225 17 12 2015 
+------------------------Testing For cd() Function---------------------------
+----for Dir2 in Dir1:----
+----for deneme in Dir1:----
+ no directory deneme in dir1!
+----Testing cd() with TextFile:----
+you cannot use cd command in Text File!
+----Testing cd() with Executable File:----
+you cannot use cd command in Executable File!
+------------------------Testing For path() Function---------------------------
+----for Dir6----
+dir1/dir2/dir3/dir4/dir5/dir6
+----for Dir4----
+dir1/dir2/dir3/dir4
+----for java Executable File----
+dir1/dir2/dir3/java
+----for deneme4 Text File----
+dir1/dir2/dir3/dir4/dir5/dir6/deneme4
+
+RUN FINISHED; exit value 0; real time: 20ms; user: 0ms; system: 0ms

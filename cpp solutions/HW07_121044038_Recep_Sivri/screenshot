@@ -1,0 +1,239 @@
+----------Testing Complex Numbers-------------
+----testing << operator:
+1.    671.56 + 123.65*i
+2.    987.123 + 43.12*i
+
+----testing + operator:
+671.56 + 123.65*i  +  987.123 + 43.12*i = 1658.68 + 166.77*i
+
+----testing - operator:
+671.56 + 123.65*i  -  987.123 + 43.12*i = -315.563 + 80.53*i
+
+----testing < operator:
+671.56 + 123.65*i < 987.123 + 43.12*i = True!
+----testing complexNumbers with realNumbers:
+complexNumbers is:
+987.123 + 43.12*i
+realNumbers is:
+123
+987.123 + 43.12*i + 123 = 1110.12 + 43.12*i
+987.123 + 43.12*i - 123 = 864.123 + 43.12*i
+987.123 + 43.12*i < 123 = False!
+
+----testing complexNumbers with RationalNumbers:
+RationalNumbers is:
+12/15
+complexNumbers is:
+56.23 + 12*i
+56.23 + 12*i + 12/15 = 57.03 + 12*i
+56.23 + 12*i - 12/15 = 55.43 + 12*i
+56.23 + 12*i < 12/15 = False!
+
+----testing complexNumbers with ImaginaryNumbers:
+ImaginaryNumbers is:
+12.123*i
+complexNumbers is:
+671.56 + 123.65*i
+671.56 + 123.65*i + 12.123*i = 671.56 + 135.773*i
+671.56 + 123.65*i - 12.123*i = 671.56 + 111.527*i
+671.56 + 123.65*i < 12.123*i = False!
+
+----testing complexNumbers with IntegerNumbers:
+IntegerNumbers is:
+12456
+complexNumbers is:
+56.23 + 13*i
+56.23 + 13*i + 12456 = 12512.2 + 13*i
+56.23 + 13*i - 12456 = -12399.8 + 13*i
+56.23 + 13*i < 12456 = True!
+
+----testing complexNumbers with IrrationalNumbers:
+IrrationalNumbers is:
+1.62658
+complexNumbers is:
+56.23 + 12*i
+56.23 + 12*i + 1.62658 = 63.23 + 12*i
+56.23 + 12*i - 1.62658 = 49.23 + 12*i
+56.23 + 12*i < 1.62658 = False!
+
+----testing complexNumbers with naturalNumbers:
+naturalNumbers is:
+2531
+complexNumbers is:
+671.56 + 123.65*i
+671.56 + 123.65*i + 2531 = 3202.56 + 123.65*i
+671.56 + 123.65*i - 2531 = -1859.44 + 123.65*i
+671.56 + 123.65*i < 2531 = True!
+
+----------Testing ImaginaryNumbers Numbers-------------
+----testing << operator:
+1.    567.123*i
+2.    897.623*i
+
+----testing + operator:
+567.123*i  +  897.623*i = 1464.75*i
+
+----testing - operator:
+567.123*i  -  897.623*i = -330.5*i
+
+----testing < operator:
+567.123*i < 897.623*i = True!
+----------Testing RealNumbers Numbers-------------
+----testing << operator:
+1.    67.912
+2.    981.123
+
+----testing + operator:
+67.912  +  981.123 = 1049.04
+
+----testing - operator:
+67.912  -  981.123 = -913.211
+
+----testing < operator:
+67.912 < 981.123 = True!
+----------Testing RealNumbers with RationalNumbers-------------
+----testing << operator:
+1.    56/70
+2.    981.123
+
+----testing + operator:
+981.123  +  56/70 = 981.923
+
+----testing - operator:
+981.123  -  56/70 = 980.323
+
+----testing < operator:
+981.123 < 56/70 = False!
+----------Testing RealNumbers with IntegerNumbers-------------
+----testing << operator:
+1.    78
+2.    981.123
+
+----testing + operator:
+981.123  +  78 = 1059.12
+
+----testing - operator:
+981.123  -  78 = 903.123
+
+----testing < operator:
+981.123 < 78 = False!
+----------Testing RealNumbers with naturalNumbers-------------
+----testing << operator:
+1.    643
+2.    5678.12
+
+----testing + operator:
+5678.12  +  643 = 6321.12
+
+----testing - operator:
+5678.12  -  643 = 5035.12
+
+----testing < operator:
+5678.12 < 643 = False!
+----------Testing RealNumbers with IrrationalNumbers-------------
+----testing << operator:
+1.    1.62658
+2.    1299
+
+----testing + operator:
+1299  +  1.62658 = 1306
+
+----testing - operator:
+1299  -  1.62658 = 1292
+
+----testing < operator:
+1299 < 1.62658 = False!
+----------Testing IrrationalNumbers-------------
+----testing << operator:
+1.    1.77722
+2.    1.49334
+
+----testing + operator:
+1.77722  +  1.49334 = 3.27056
+
+----testing - operator:
+1.77722  -  1.49334 = 0.28388
+
+----testing < operator:
+1.77722 < 1.49334 = False!
+----------Testing RationalNumbers-------------
+----testing << operator:
+1.    56/70
+2.    16/25
+
+----testing + operator:
+56/70  +  16/25 = 36/25
+
+----testing - operator:
+56/70  -  16/25 = 4/25
+
+----testing < operator:
+56/70 < 16/25 = False!
+----------Testing RationalNumbers  with IntegerNumbers-------------
+----testing << operator:
+1.    123/150
+2.    423
+
+----testing + operator:
+123/150  +  423 = 21191/50
+
+----testing - operator:
+123/150  -  423 = -21109/50
+
+----testing < operator:
+123/150 < 423 = True!
+----------Testing RationalNumbers  with naturalNumbers-------------
+----testing << operator:
+1.    16/25
+2.    456
+
+----testing + operator:
+16/25  +  456 = 11416/25
+
+----testing - operator:
+16/25  -  456 = -11384/25
+
+----testing < operator:
+16/25 < 456 = True!
+----------Testing IntegerNumbers-------------
+----testing << operator:
+1.    423
+2.    897
+
+----testing + operator:
+423  +  897 = 1320
+
+----testing - operator:
+423  -  897 = -474
+
+----testing < operator:
+423 < 897 = True!
+----------Testing IntegerNumbers with naturalNumbers-------------
+----testing << operator:
+1.    643
+2.    5678.12
+
+----testing + operator:
+5678.12  +  643 = 6321.12
+
+----testing - operator:
+5678.12  -  643 = 5035.12
+
+----testing < operator:
+5678.12 < 643 = False!
+----------Testing naturalNumbers-------------
+----testing << operator:
+1.    2531
+2.    456
+
+----testing + operator:
+2531  +  456 = 2987
+
+----testing - operator:
+2531  -  456 = 2075
+
+----testing < operator:
+2531 < 456 = False!
+
+RUN FINISHED; exit value 0; real time: 0ms; user: 0ms; system: 0ms
+

@@ -1,0 +1,890 @@
+----------please choose a element in list for test:---------
+1 -testing game1
+2 -testing game2
+3 -testing game3
+4 -testing game4
+5 -testing game5
+6 -testing cell1
+7 -testing operator=
+8 -testing copy constructor
+9 -testing  number of living Reversi games
+10-Quit
+6
+     1- Testing setter for cell object.
+     2- Testing output for cell object.
+     3- Exit.
+1
+please enter a coordinate:
+12a
+     1- Testing setter for cell object.
+     2- Testing output for cell object.
+     3- Exit.
+3
+1 -testing game1
+2 -testing game2
+3 -testing game3
+4 -testing game4
+5 -testing game5
+6 -testing cell1
+7 -testing operator=
+8 -testing copy constructor
+9 -testing  number of living Reversi games
+10-Quit
+6
+     1- Testing setter for cell object.
+     2- Testing output for cell object.
+     3- Exit.
+1
+please enter a coordinate:
+12as
+     1- Testing setter for cell object.
+     2- Testing output for cell object.
+     3- Exit.
+2
+X coordinate:as
+Y coordinate:12
+piece of X and Y coordinate:.
+     1- Testing setter for cell object.
+     2- Testing output for cell object.
+     3- Exit.
+3
+1 -testing game1
+2 -testing game2
+3 -testing game3
+4 -testing game4
+5 -testing game5
+6 -testing cell1
+7 -testing operator=
+8 -testing copy constructor
+9 -testing  number of living Reversi games
+10-Quit
+1
+     1-test operator<< for game1
+     2-test operator++(pre increment) for game1
+     3-test operator++(post increment) for game1
+     4-test playGame function for game1
+     5-test compareGames game1-game2
+     6-test compareGames game1-game3
+     7-test compareGames game1-game4
+     8-test compareGames game1-game5
+     9-Exit
+1
+   a b c d 
+1  . . . . 
+2  . O X . 
+3  . X O . 
+4  . . . . 
+
+     1-test operator<< for game1
+     2-test operator++(pre increment) for game1
+     3-test operator++(post increment) for game1
+     4-test playGame function for game1
+     5-test compareGames game1-game2
+     6-test compareGames game1-game3
+     7-test compareGames game1-game4
+     8-test compareGames game1-game5
+     9-Exit
+2
+test for operator++(pre increment):
+returning this:
+uses copy construcor!
+   a b c d 
+1  . . . . 
+2  X X X . 
+3  . X O . 
+4  . . . . 
+
+6number of living Reversi games.
+result this:
+   a b c d 
+1  . . . . 
+2  X X X . 
+3  . X O . 
+4  . . . . 
+
+     1-test operator<< for game1
+     2-test operator++(pre increment) for game1
+     3-test operator++(post increment) for game1
+     4-test playGame function for game1
+     5-test compareGames game1-game2
+     6-test compareGames game1-game3
+     7-test compareGames game1-game4
+     8-test compareGames game1-game5
+     9-Exit
+3
+test for operator++(post increment):
+returning this:
+uses copy construcor!
+   a b c d 
+1  . . . . 
+2  X X X . 
+3  . X O . 
+4  . . . . 
+
+6number of living Reversi games.
+result this:
+   a b c d 
+1  . . . . 
+2  X X X . 
+3  . X X X 
+4  . . . . 
+
+     1-test operator<< for game1
+     2-test operator++(pre increment) for game1
+     3-test operator++(post increment) for game1
+     4-test playGame function for game1
+     5-test compareGames game1-game2
+     6-test compareGames game1-game3
+     7-test compareGames game1-game4
+     8-test compareGames game1-game5
+     9-Exit
+4
+please enter high:1
+please enter row:4
+   a b c d 
+1  . . . . 
+2  . O X . 
+3  . X O . 
+4  . . . . 
+
+please enter a coordinate:
+1c
+   a b c d 
+1  . . O . 
+2  . O O . 
+3  . X O . 
+4  . . . . 
+
+   a b c d 
+1  . . O X 
+2  . O X . 
+3  . X O . 
+4  . . . . 
+
+Exit Game ? [y/n]
+n
+please enter a coordinate:
+2d
+   a b c d 
+1  . . O X 
+2  . O O O 
+3  . X O . 
+4  . . . . 
+
+   a b c d 
+1  . X X X 
+2  . X O O 
+3  . X O . 
+4  . . . . 
+
+Exit Game ? [y/n]
+n
+please enter a coordinate:
+1a
+   a b c d 
+1  O X X X 
+2  . O O O 
+3  . X O . 
+4  . . . . 
+
+   a b c d 
+1  O X X X 
+2  . O X X 
+3  . X X X 
+4  . . . . 
+
+Exit Game ? [y/n]
+n
+please enter a coordinate:
+4d
+   a b c d 
+1  O X X X 
+2  . O X X 
+3  . X O X 
+4  . . . O 
+
+   a b c d 
+1  O X X X 
+2  X X X X 
+3  . X O X 
+4  . . . O 
+
+Exit Game ? [y/n]
+n
+please enter a coordinate:
+3a
+   a b c d 
+1  O X X X 
+2  O X X X 
+3  O O O X 
+4  . . . O 
+
+   a b c d 
+1  O X X X 
+2  O X X X 
+3  O X X X 
+4  . X . O 
+
+Exit Game ? [y/n]
+a
+Exit Game ? [y/n]
+b
+Exit Game ? [y/n]
+n
+please enter a coordinate:
+1a
+please enter valid coordinate!
+4c
+   a b c d 
+1  O X X X 
+2  O X X X 
+3  O O X X 
+4  . X O O 
+
+   a b c d 
+1  O X X X 
+2  O X X X 
+3  O X X X 
+4  X X O O 
+
+Exit Game ? [y/n]
+n
+X (Computer) Win!
+     1-test operator<< for game1
+     2-test operator++(pre increment) for game1
+     3-test operator++(post increment) for game1
+     4-test playGame function for game1
+     5-test compareGames game1-game2
+     6-test compareGames game1-game3
+     7-test compareGames game1-game4
+     8-test compareGames game1-game5
+     9-Exit
+5
+1
+     1-test operator<< for game1
+     2-test operator++(pre increment) for game1
+     3-test operator++(post increment) for game1
+     4-test playGame function for game1
+     5-test compareGames game1-game2
+     6-test compareGames game1-game3
+     7-test compareGames game1-game4
+     8-test compareGames game1-game5
+     9-Exit
+6
+1
+     1-test operator<< for game1
+     2-test operator++(pre increment) for game1
+     3-test operator++(post increment) for game1
+     4-test playGame function for game1
+     5-test compareGames game1-game2
+     6-test compareGames game1-game3
+     7-test compareGames game1-game4
+     8-test compareGames game1-game5
+     9-Exit
+7
+1
+     1-test operator<< for game1
+     2-test operator++(pre increment) for game1
+     3-test operator++(post increment) for game1
+     4-test playGame function for game1
+     5-test compareGames game1-game2
+     6-test compareGames game1-game3
+     7-test compareGames game1-game4
+     8-test compareGames game1-game5
+     9-Exit
+8
+1
+     1-test operator<< for game1
+     2-test operator++(pre increment) for game1
+     3-test operator++(post increment) for game1
+     4-test playGame function for game1
+     5-test compareGames game1-game2
+     6-test compareGames game1-game3
+     7-test compareGames game1-game4
+     8-test compareGames game1-game5
+     9-Exit
+9
+1 -testing game1
+2 -testing game2
+3 -testing game3
+4 -testing game4
+5 -testing game5
+6 -testing cell1
+7 -testing operator=
+8 -testing copy constructor
+9 -testing  number of living Reversi games
+10-Quit
+3
+     1-test operator<< for game3
+     2-test operator++(pre increment) for game3
+     3-test operator++(post increment) for game3
+     4-test playGame function for game3
+     5-test compareGames game3-game1
+     6-test compareGames game3-game2
+     7-test compareGames game3-game4
+     8-test compareGames game3-game5
+     9-Exit
+1
+   a b c d e f g h 
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . . O X . . . 
+5  . . . X O . . . 
+6  . . . . . . . . 
+7  . . . . . . . . 
+8  . . . . . . . . 
+
+     1-test operator<< for game3
+     2-test operator++(pre increment) for game3
+     3-test operator++(post increment) for game3
+     4-test playGame function for game3
+     5-test compareGames game3-game1
+     6-test compareGames game3-game2
+     7-test compareGames game3-game4
+     8-test compareGames game3-game5
+     9-Exit
+2
+test for operator++(pre increment):
+returning this:
+uses copy construcor!
+   a b c d e f g h 
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . X X X . . . 
+5  . . . X O . . . 
+6  . . . . . . . . 
+7  . . . . . . . . 
+8  . . . . . . . . 
+
+6number of living Reversi games.
+result this:
+   a b c d e f g h 
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . X X X . . . 
+5  . . . X O . . . 
+6  . . . . . . . . 
+7  . . . . . . . . 
+8  . . . . . . . . 
+
+     1-test operator<< for game3
+     2-test operator++(pre increment) for game3
+     3-test operator++(post increment) for game3
+     4-test playGame function for game3
+     5-test compareGames game3-game1
+     6-test compareGames game3-game2
+     7-test compareGames game3-game4
+     8-test compareGames game3-game5
+     9-Exit
+3
+test for operator++(post increment):
+returning this:
+uses copy construcor!
+   a b c d e f g h 
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . X X X . . . 
+5  . . . X O . . . 
+6  . . . . . . . . 
+7  . . . . . . . . 
+8  . . . . . . . . 
+
+6number of living Reversi games.
+result this:
+   a b c d e f g h 
+1  . . . . . . . . 
+2  . . . . . . . . 
+3  . . . . . . . . 
+4  . . X X X . . . 
+5  . . . X X X . . 
+6  . . . . . . . . 
+7  . . . . . . . . 
+8  . . . . . . . . 
+
+     1-test operator<< for game3
+     2-test operator++(pre increment) for game3
+     3-test operator++(post increment) for game3
+     4-test playGame function for game3
+     5-test compareGames game3-game1
+     6-test compareGames game3-game2
+     7-test compareGames game3-game4
+     8-test compareGames game3-game5
+     9-Exit
+4
+please enter high:12
+please enter row:56
+   a b c d e f g h i j k l 
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . . . . . . . . 
+7  . . . . . . . . . . . . 
+8  . . . . . . . . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+15 . . . . . . . . . . . . 
+16 . . . . . . . . . . . . 
+17 . . . . . . . . . . . . 
+18 . . . . . . . . . . . . 
+19 . . . . . . . . . . . . 
+20 . . . . . . . . . . . . 
+21 . . . . . . . . . . . . 
+22 . . . . . . . . . . . . 
+23 . . . . . . . . . . . . 
+24 . . . . . . . . . . . . 
+25 . . . . . . . . . . . . 
+26 . . . . . . . . . . . . 
+27 . . . . . . . . . . . . 
+28 . . . . . O X . . . . . 
+29 . . . . . X O . . . . . 
+30 . . . . . . . . . . . . 
+31 . . . . . . . . . . . . 
+32 . . . . . . . . . . . . 
+33 . . . . . . . . . . . . 
+34 . . . . . . . . . . . . 
+35 . . . . . . . . . . . . 
+36 . . . . . . . . . . . . 
+37 . . . . . . . . . . . . 
+38 . . . . . . . . . . . . 
+39 . . . . . . . . . . . . 
+40 . . . . . . . . . . . . 
+41 . . . . . . . . . . . . 
+42 . . . . . . . . . . . . 
+43 . . . . . . . . . . . . 
+44 . . . . . . . . . . . . 
+45 . . . . . . . . . . . . 
+46 . . . . . . . . . . . . 
+47 . . . . . . . . . . . . 
+48 . . . . . . . . . . . . 
+49 . . . . . . . . . . . . 
+50 . . . . . . . . . . . . 
+51 . . . . . . . . . . . . 
+52 . . . . . . . . . . . . 
+53 . . . . . . . . . . . . 
+54 . . . . . . . . . . . . 
+55 . . . . . . . . . . . . 
+56 . . . . . . . . . . . . 
+
+please enter a coordinate:
+27g
+   a b c d e f g h i j k l 
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . . . . . . . . 
+7  . . . . . . . . . . . . 
+8  . . . . . . . . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+15 . . . . . . . . . . . . 
+16 . . . . . . . . . . . . 
+17 . . . . . . . . . . . . 
+18 . . . . . . . . . . . . 
+19 . . . . . . . . . . . . 
+20 . . . . . . . . . . . . 
+21 . . . . . . . . . . . . 
+22 . . . . . . . . . . . . 
+23 . . . . . . . . . . . . 
+24 . . . . . . . . . . . . 
+25 . . . . . . . . . . . . 
+26 . . . . . . . . . . . . 
+27 . . . . . . O . . . . . 
+28 . . . . . O O . . . . . 
+29 . . . . . X O . . . . . 
+30 . . . . . . . . . . . . 
+31 . . . . . . . . . . . . 
+32 . . . . . . . . . . . . 
+33 . . . . . . . . . . . . 
+34 . . . . . . . . . . . . 
+35 . . . . . . . . . . . . 
+36 . . . . . . . . . . . . 
+37 . . . . . . . . . . . . 
+38 . . . . . . . . . . . . 
+39 . . . . . . . . . . . . 
+40 . . . . . . . . . . . . 
+41 . . . . . . . . . . . . 
+42 . . . . . . . . . . . . 
+43 . . . . . . . . . . . . 
+44 . . . . . . . . . . . . 
+45 . . . . . . . . . . . . 
+46 . . . . . . . . . . . . 
+47 . . . . . . . . . . . . 
+48 . . . . . . . . . . . . 
+49 . . . . . . . . . . . . 
+50 . . . . . . . . . . . . 
+51 . . . . . . . . . . . . 
+52 . . . . . . . . . . . . 
+53 . . . . . . . . . . . . 
+54 . . . . . . . . . . . . 
+55 . . . . . . . . . . . . 
+56 . . . . . . . . . . . . 
+
+   a b c d e f g h i j k l 
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . . . . . . . . 
+7  . . . . . . . . . . . . 
+8  . . . . . . . . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+15 . . . . . . . . . . . . 
+16 . . . . . . . . . . . . 
+17 . . . . . . . . . . . . 
+18 . . . . . . . . . . . . 
+19 . . . . . . . . . . . . 
+20 . . . . . . . . . . . . 
+21 . . . . . . . . . . . . 
+22 . . . . . . . . . . . . 
+23 . . . . . . . . . . . . 
+24 . . . . . . . . . . . . 
+25 . . . . . . . . . . . . 
+26 . . . . . . . . . . . . 
+27 . . . . . . O X . . . . 
+28 . . . . . O X . . . . . 
+29 . . . . . X O . . . . . 
+30 . . . . . . . . . . . . 
+31 . . . . . . . . . . . . 
+32 . . . . . . . . . . . . 
+33 . . . . . . . . . . . . 
+34 . . . . . . . . . . . . 
+35 . . . . . . . . . . . . 
+36 . . . . . . . . . . . . 
+37 . . . . . . . . . . . . 
+38 . . . . . . . . . . . . 
+39 . . . . . . . . . . . . 
+40 . . . . . . . . . . . . 
+41 . . . . . . . . . . . . 
+42 . . . . . . . . . . . . 
+43 . . . . . . . . . . . . 
+44 . . . . . . . . . . . . 
+45 . . . . . . . . . . . . 
+46 . . . . . . . . . . . . 
+47 . . . . . . . . . . . . 
+48 . . . . . . . . . . . . 
+49 . . . . . . . . . . . . 
+50 . . . . . . . . . . . . 
+51 . . . . . . . . . . . . 
+52 . . . . . . . . . . . . 
+53 . . . . . . . . . . . . 
+54 . . . . . . . . . . . . 
+55 . . . . . . . . . . . . 
+56 . . . . . . . . . . . . 
+
+Exit Game ? [y/n]
+y
+     1-test operator<< for game3
+     2-test operator++(pre increment) for game3
+     3-test operator++(post increment) for game3
+     4-test playGame function for game3
+     5-test compareGames game3-game1
+     6-test compareGames game3-game2
+     7-test compareGames game3-game4
+     8-test compareGames game3-game5
+     9-Exit
+9
+1 -testing game1
+2 -testing game2
+3 -testing game3
+4 -testing game4
+5 -testing game5
+6 -testing cell1
+7 -testing operator=
+8 -testing copy constructor
+9 -testing  number of living Reversi games
+10-Quit
+7
+     1 -game1=game2
+     2 -game1=game3
+     3 -game1=game4
+     4 -game1=game5
+     5 -game2=game3
+     6 -Exit
+1
+before assignment
+game1:
+   a b c d 
+1  O X X X 
+2  O X X X 
+3  O X X X 
+4  X X O O 
+
+after assignment
+game1:
+   a b c d e f g h i j k l m n o 
+1  . . . . . . . . . . . . . . . 
+2  . . . . . . . . . . . . . . . 
+3  . . . . . . . . . . . . . . . 
+4  . . . . . . . . . . . . . . . 
+5  . . . . . . . . . . . . . . . 
+6  . . . . . . . . . . . . . . . 
+7  . . . . . . O X . . . . . . . 
+8  . . . . . . X O . . . . . . . 
+9  . . . . . . . . . . . . . . . 
+10 . . . . . . . . . . . . . . . 
+11 . . . . . . . . . . . . . . . 
+12 . . . . . . . . . . . . . . . 
+13 . . . . . . . . . . . . . . . 
+14 . . . . . . . . . . . . . . . 
+15 . . . . . . . . . . . . . . . 
+
+     1 -game1=game2
+     2 -game1=game3
+     3 -game1=game4
+     4 -game1=game5
+     5 -game2=game3
+     6 -Exit
+2
+before assignment
+game1:
+   a b c d e f g h i j k l m n o 
+1  . . . . . . . . . . . . . . . 
+2  . . . . . . . . . . . . . . . 
+3  . . . . . . . . . . . . . . . 
+4  . . . . . . . . . . . . . . . 
+5  . . . . . . . . . . . . . . . 
+6  . . . . . . . . . . . . . . . 
+7  . . . . . . O X . . . . . . . 
+8  . . . . . . X O . . . . . . . 
+9  . . . . . . . . . . . . . . . 
+10 . . . . . . . . . . . . . . . 
+11 . . . . . . . . . . . . . . . 
+12 . . . . . . . . . . . . . . . 
+13 . . . . . . . . . . . . . . . 
+14 . . . . . . . . . . . . . . . 
+15 . . . . . . . . . . . . . . . 
+
+after assignment
+game1:
+   a b c d e f g h i j k l 
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . . . . . . . . 
+7  . . . . . . . . . . . . 
+8  . . . . . . . . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+15 . . . . . . . . . . . . 
+16 . . . . . . . . . . . . 
+17 . . . . . . . . . . . . 
+18 . . . . . . . . . . . . 
+19 . . . . . . . . . . . . 
+20 . . . . . . . . . . . . 
+21 . . . . . . . . . . . . 
+22 . . . . . . . . . . . . 
+23 . . . . . . . . . . . . 
+24 . . . . . . . . . . . . 
+25 . . . . . . . . . . . . 
+26 . . . . . . . . . . . . 
+27 . . . . . . O X . . . . 
+28 . . . . . O X . . . . . 
+29 . . . . . X O . . . . . 
+30 . . . . . . . . . . . . 
+31 . . . . . . . . . . . . 
+32 . . . . . . . . . . . . 
+33 . . . . . . . . . . . . 
+34 . . . . . . . . . . . . 
+35 . . . . . . . . . . . . 
+36 . . . . . . . . . . . . 
+37 . . . . . . . . . . . . 
+38 . . . . . . . . . . . . 
+39 . . . . . . . . . . . . 
+40 . . . . . . . . . . . . 
+41 . . . . . . . . . . . . 
+42 . . . . . . . . . . . . 
+43 . . . . . . . . . . . . 
+44 . . . . . . . . . . . . 
+45 . . . . . . . . . . . . 
+46 . . . . . . . . . . . . 
+47 . . . . . . . . . . . . 
+48 . . . . . . . . . . . . 
+49 . . . . . . . . . . . . 
+50 . . . . . . . . . . . . 
+51 . . . . . . . . . . . . 
+52 . . . . . . . . . . . . 
+53 . . . . . . . . . . . . 
+54 . . . . . . . . . . . . 
+55 . . . . . . . . . . . . 
+56 . . . . . . . . . . . . 
+
+     1 -game1=game2
+     2 -game1=game3
+     3 -game1=game4
+     4 -game1=game5
+     5 -game2=game3
+     6 -Exit
+5
+before assignment
+game2:
+   a b c d e f g h i j k l m n o 
+1  . . . . . . . . . . . . . . . 
+2  . . . . . . . . . . . . . . . 
+3  . . . . . . . . . . . . . . . 
+4  . . . . . . . . . . . . . . . 
+5  . . . . . . . . . . . . . . . 
+6  . . . . . . . . . . . . . . . 
+7  . . . . . . O X . . . . . . . 
+8  . . . . . . X O . . . . . . . 
+9  . . . . . . . . . . . . . . . 
+10 . . . . . . . . . . . . . . . 
+11 . . . . . . . . . . . . . . . 
+12 . . . . . . . . . . . . . . . 
+13 . . . . . . . . . . . . . . . 
+14 . . . . . . . . . . . . . . . 
+15 . . . . . . . . . . . . . . . 
+
+after assignment
+game2:
+   a b c d e f g h i j k l 
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . . . . . . . . 
+7  . . . . . . . . . . . . 
+8  . . . . . . . . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+15 . . . . . . . . . . . . 
+16 . . . . . . . . . . . . 
+17 . . . . . . . . . . . . 
+18 . . . . . . . . . . . . 
+19 . . . . . . . . . . . . 
+20 . . . . . . . . . . . . 
+21 . . . . . . . . . . . . 
+22 . . . . . . . . . . . . 
+23 . . . . . . . . . . . . 
+24 . . . . . . . . . . . . 
+25 . . . . . . . . . . . . 
+26 . . . . . . . . . . . . 
+27 . . . . . . O X . . . . 
+28 . . . . . O X . . . . . 
+29 . . . . . X O . . . . . 
+30 . . . . . . . . . . . . 
+31 . . . . . . . . . . . . 
+32 . . . . . . . . . . . . 
+33 . . . . . . . . . . . . 
+34 . . . . . . . . . . . . 
+35 . . . . . . . . . . . . 
+36 . . . . . . . . . . . . 
+37 . . . . . . . . . . . . 
+38 . . . . . . . . . . . . 
+39 . . . . . . . . . . . . 
+40 . . . . . . . . . . . . 
+41 . . . . . . . . . . . . 
+42 . . . . . . . . . . . . 
+43 . . . . . . . . . . . . 
+44 . . . . . . . . . . . . 
+45 . . . . . . . . . . . . 
+46 . . . . . . . . . . . . 
+47 . . . . . . . . . . . . 
+48 . . . . . . . . . . . . 
+49 . . . . . . . . . . . . 
+50 . . . . . . . . . . . . 
+51 . . . . . . . . . . . . 
+52 . . . . . . . . . . . . 
+53 . . . . . . . . . . . . 
+54 . . . . . . . . . . . . 
+55 . . . . . . . . . . . . 
+56 . . . . . . . . . . . . 
+
+     1 -game1=game2
+     2 -game1=game3
+     3 -game1=game4
+     4 -game1=game5
+     5 -game2=game3
+     6 -Exit
+6
+1 -testing game1
+2 -testing game2
+3 -testing game3
+4 -testing game4
+5 -testing game5
+6 -testing cell1
+7 -testing operator=
+8 -testing copy constructor
+9 -testing  number of living Reversi games
+10-Quit
+8
+     1- testing Copy constructor for Call by value.
+     2- testing Copy constructor for Call by referance.
+     3-Exit.
+1
+compares game1 and game2 with compareGames call by value.
+uses copy construcor!
+result:0
+6number of living Reversi games.
+     1- testing Copy constructor for Call by value.
+     2- testing Copy constructor for Call by referance.
+     3-Exit.
+2
+compares game1 and game2 with compareGames call by referance.
+result:0
+     1- testing Copy constructor for Call by value.
+     2- testing Copy constructor for Call by referance.
+     3-Exit.
+3
+1 -testing game1
+2 -testing game2
+3 -testing game3
+4 -testing game4
+5 -testing game5
+6 -testing cell1
+7 -testing operator=
+8 -testing copy constructor
+9 -testing  number of living Reversi games
+10-Quit
+9
+number of living Reversi Games:5
+1 -testing game1
+2 -testing game2
+3 -testing game3
+4 -testing game4
+5 -testing game5
+6 -testing cell1
+7 -testing operator=
+8 -testing copy constructor
+9 -testing  number of living Reversi games
+10-Quit
+10
+5number of living Reversi games.
+4number of living Reversi games.
+3number of living Reversi games.
+2number of living Reversi games.
+1number of living Reversi games.
+
+RUN FINISHED; exit value 0; real time: 3m 43s; user: 30ms; system: 10ms

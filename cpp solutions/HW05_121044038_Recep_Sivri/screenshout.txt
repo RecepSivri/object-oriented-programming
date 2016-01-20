@@ -1,0 +1,432 @@
+-------------Testing Cell objects---------------------
+please select objects:
+1- coor1-coor2
+2- coor3-coor4
+3- coor1-coor5
+4- Testing Reversi objects
+5- Quit the program
+1
+-------testing for >>(stream extraction operator)--------------------
+please enter a coor1:
+12s
+please enter a coor2:
+21a
+-------testing for <<(stream insertion operator)--------------------
+coor1:
+x:s
+y:12
+coor2:
+x:a
+y:21
+------------------testing for ==(equal operator)--------------------
+coor1:
+x:s
+y:12
+
+coor2:
+x:a
+y:21
+
+coor1 and coor2 is not equal!
+------------------testing for !=(not equal operator)-----------------
+coor1:
+x:a
+y:122
+
+coor2:
+x:as
+y:12
+
+coor1 and coor2 is not equal!
+------------------testing for <(less then operator)-----------------
+coor1:
+x:ab
+y:132
+
+coor2:
+x:as
+y:112
+
+coor1 is not less then coor2!
+------------------testing for >(greater then operator)-----------------
+coor1:
+x:at
+y:12
+
+coor2:
+x:as
+y:12
+
+coor1 is greater then coor2.
+------------------testing for >=(greater then operator)-----------------
+coor1:
+x:ar
+y:13
+
+coor2:
+x:as
+y:12
+
+coor1 is greater equal then coor2.
+------------------testing for <=(less then operator)-----------------
+coor1:
+x:ar
+y:12
+
+coor2:
+x:as
+y:12
+
+coor1 is less equal then coor2.
+------------------testing for ++(pre increment operator)-----------------
+coor1:
+x:a
+y:12
+
+before pre incrementing:
+x:a
+y:12
+
+return coor1 of pre increment:
+x:b
+y:13
+
+after pre incrementing:
+x:b
+y:13
+
+------------------testing for ++(post increment operator)-----------------
+coor1:
+x:a
+y:12
+
+before post incrementing:
+x:a
+y:12
+
+return coor1 of post increment:
+x:a
+y:12
+
+after post incrementing:
+x:b
+y:13
+
+------------------testing for --(pre decrement operator)-----------------
+coor1:
+x:vb
+y:15
+
+before pre decrementing:
+x:vb
+y:15
+
+return coor1 of pre decrement:
+x:ub
+y:14
+
+after pre decrementing:
+x:ub
+y:14
+
+------------------testing for --(post decrement operator)-----------------
+coor1:
+x:xs
+y:56
+
+before post decrementing:
+x:xs
+y:56
+
+return coor1 of post decrement:
+x:xs
+y:56
+
+after post decrementing:
+x:ws
+y:55
+
+please select objects:
+1- coor1-coor2
+2- coor3-coor4
+3- coor1-coor5
+4- Testing Reversi objects
+5- Quit the program
+4
+---------------Testing Reversi Objects and functions------------
+please choose games:
+1-game1
+2-game2
+3-game3
+4-game4
+5-game5
+6-quit
+1
+please enter operations for game1:
+1-testing for <<(stream insertion operator)
+2-testing for ++(pre increment operator)
+3-testing for ++(post increment operator)
+4-testing for +=(Add AND assignment)
+5-testing for --(pre decrement operator)
+6-testing for --(post decrement operator)
+7-testing for [](index operator)
+8-testing for ()(function call  operator)
+9-Exit testing game1
+1
+-------testing for Reversi <<(stream insertion operator)--------------------
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . . . . . . . . 
+7  . . . . . O X . . . . . 
+8  . . . . . X O . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+   a b c d e f g h i j k l 
+number of livincells:20
+please enter operations for game1:
+1-testing for <<(stream insertion operator)
+2-testing for ++(pre increment operator)
+3-testing for ++(post increment operator)
+4-testing for +=(Add AND assignment)
+5-testing for --(pre decrement operator)
+6-testing for --(post decrement operator)
+7-testing for [](index operator)
+8-testing for ()(function call  operator)
+9-Exit testing game1
+2
+---------testing for Reversi ++(pre increment operator)---------------------
+returning value of pre increment operator:
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . X . . . . . . 
+7  . . . . . X X . . . . . 
+8  . . . . . X O . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+   a b c d e f g h i j k l 
+number of livincells:21
+after pre incrementing:
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . X . . . . . . 
+7  . . . . . X X . . . . . 
+8  . . . . . X O . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+   a b c d e f g h i j k l 
+number of livincells:21
+please enter operations for game1:
+1-testing for <<(stream insertion operator)
+2-testing for ++(pre increment operator)
+3-testing for ++(post increment operator)
+4-testing for +=(Add AND assignment)
+5-testing for --(pre decrement operator)
+6-testing for --(post decrement operator)
+7-testing for [](index operator)
+8-testing for ()(function call  operator)
+9-Exit testing game1
+4
+---------testing for Reversi +=(Add AND assignment)---------------------
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . X . . . . . . 
+7  . . . . . X X . . . . . 
+8  . . . . . X O . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+   a b c d e f g h i j k l 
+number of livincells:21
+please enter a coordinate:
+6e
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . O X . . . . . . 
+7  . . . . . O X . . . . . 
+8  . . . . . X O . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+   a b c d e f g h i j k l 
+number of livincells:22
+please enter operations for game1:
+1-testing for <<(stream insertion operator)
+2-testing for ++(pre increment operator)
+3-testing for ++(post increment operator)
+4-testing for +=(Add AND assignment)
+5-testing for --(pre decrement operator)
+6-testing for --(post decrement operator)
+7-testing for [](index operator)
+8-testing for ()(function call  operator)
+9-Exit testing game1
+5
+---------testing for Reversi --(pre decrement operator)---------------------
+returning value of pre decrement operator:
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . X . . . . . . 
+7  . . . . . X X . . . . . 
+8  . . . . . X O . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+   a b c d e f g h i j k l 
+number of livincells:21
+after pre decrementing:
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . X . . . . . . 
+7  . . . . . X X . . . . . 
+8  . . . . . X O . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+   a b c d e f g h i j k l 
+please enter operations for game1:
+1-testing for <<(stream insertion operator)
+2-testing for ++(pre increment operator)
+3-testing for ++(post increment operator)
+4-testing for +=(Add AND assignment)
+5-testing for --(pre decrement operator)
+6-testing for --(post decrement operator)
+7-testing for [](index operator)
+8-testing for ()(function call  operator)
+9-Exit testing game1
+6
+---------testing for Reversi --(post decrement operator)---------------------
+returning value of post decrement operator:
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . X . . . . . . 
+7  . . . . . X X . . . . . 
+8  . . . . . X O . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+   a b c d e f g h i j k l 
+number of livincells:20
+after post decrementing:
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . . . . . . . . 
+7  . . . . . O X . . . . . 
+8  . . . . . X O . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+   a b c d e f g h i j k l 
+number of livincells:20
+please enter operations for game1:
+1-testing for <<(stream insertion operator)
+2-testing for ++(pre increment operator)
+3-testing for ++(post increment operator)
+4-testing for +=(Add AND assignment)
+5-testing for --(pre decrement operator)
+6-testing for --(post decrement operator)
+7-testing for [](index operator)
+8-testing for ()(function call  operator)
+9-Exit testing game1
+6
+---------testing for Reversi --(post decrement operator)---------------------
+returning value of post decrement operator:
+you cannot dicrement game!
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . . . . . . . . 
+7  . . . . . O X . . . . . 
+8  . . . . . X O . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+   a b c d e f g h i j k l 
+number of livincells:24
+after post decrementing:
+1  . . . . . . . . . . . . 
+2  . . . . . . . . . . . . 
+3  . . . . . . . . . . . . 
+4  . . . . . . . . . . . . 
+5  . . . . . . . . . . . . 
+6  . . . . . . . . . . . . 
+7  . . . . . O X . . . . . 
+8  . . . . . X O . . . . . 
+9  . . . . . . . . . . . . 
+10 . . . . . . . . . . . . 
+11 . . . . . . . . . . . . 
+12 . . . . . . . . . . . . 
+13 . . . . . . . . . . . . 
+14 . . . . . . . . . . . . 
+   a b c d e f g h i j k l 
+number of livincells:24
+please enter operations for game1:
+1-testing for <<(stream insertion operator)
+2-testing for ++(pre increment operator)
+3-testing for ++(post increment operator)
+4-testing for +=(Add AND assignment)
+5-testing for --(pre decrement operator)
+6-testing for --(post decrement operator)
+7-testing for [](index operator)
+8-testing for ()(function call  operator)
+9-Exit testing game1

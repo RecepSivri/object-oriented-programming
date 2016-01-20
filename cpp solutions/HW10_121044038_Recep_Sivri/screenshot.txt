@@ -1,0 +1,275 @@
+run:
+****************Testing HW10_121044038_Recep_Sivri*****************************
+Enter your expression, after each operator or operand press enter, to end the expression press(for exp1) =
+Enter your expression element
+1
+Enter your expression element
++
+Enter your expression element
+2
+Enter your expression element
+*
+Enter your expression element
+(
+Enter your expression element
+3
+Enter your expression element
++
+Enter your expression element
+4
+Enter your expression element
+*
+Enter your expression element
+5
+Enter your expression element
+/
+Enter your expression element
+2
+Enter your expression element
+-
+Enter your expression element
+7
+Enter your expression element
+)
+Enter your expression element
++
+Enter your expression element
+12
+Enter your expression element
+*
+Enter your expression element
+2
+Enter your expression element
+/
+Enter your expression element
+3
+Enter your expression element
+=
+ 1 + 2 * ( 3 + 4 * 5 / 2 - 7 ) + 12 * 2 / 3
+
+result:
+1 + 2 * 6 + 12 * 2 / 3 
+21 
+Enter your expression, after each operator or operand press enter, to end the expression press(for exp2) =
+
+Enter your expression element
+(
+
+Enter your expression element
+(
+
+Enter your expression element
+(
+
+Enter your expression element
+12
+
+Enter your expression element
++
+
+Enter your expression element
+78
+
+Enter your expression element
+-
+
+Enter your expression element
+4
+
+Enter your expression element
+*
+
+Enter your expression element
+
+Enter your expression element
+5
+)
+
+Enter your expression element
+)
+
+Enter your expression element
+)
+
+Enter your expression element
+=
+ ( ( ( 12 + 78 - 4 * 5 ) ) )
+
+result:
+( ( 70 ) ) 
+( 70 ) 
+70 
+would you test equal function?[y/n]
+y
+exp1!=exp2
+would you like continue?[y/n]
+y
+Enter your expression, after each operator or operand press enter, to end the expression press(for exp1) =
+Enter your expression element
+Enter your expression element
+1
++
+Enter your expression element
+2
+Enter your expression element
++
+Enter your expression element
+3
+Enter your expression element
+-
+Enter your expression element
+12
+Enter your expression element
++
+Enter your expression element
+5
+Enter your expression element
+=
+ 1 + 2 + 3 - 12 + 5
+
+result:
+-1 
+Enter your expression, after each operator or operand press enter, to end the expression press(for exp2) =
+
+Enter your expression element
+6
+
+Enter your expression element
+
+Enter your expression element
++
+3
+
+Enter your expression element
+
+Enter your expression element
+*
+(
+
+Enter your expression element
+7
+
+Enter your expression element
+-
+
+Enter your expression element
+
+Enter your expression element
+9
+)
+
+Enter your expression element
+-
+
+Enter your expression element
+1
+
+Enter your expression element
+=
+ 6 + 3 * ( 7 - 9 ) - 1
+
+result:
+6 + 3 * -2 - 1 
+-1 
+would you test equal function?[y/n]
+y
+exp1==exp2
+would you like continue?[y/n]
+y
+Enter your expression, after each operator or operand press enter, to end the expression press(for exp1) =
+Enter your expression element
+Enter your expression element
+1
+Enter your expression element
++
++
+Enter your expression element
+1
+Enter your expression element
+-
+Enter your expression element
+12
+Enter your expression element
+=
+ 1 + + 1 - 12
+
+result:
+Invalid Expression!
+Enter your expression, after each operator or operand press enter, to end the expression press(for exp2) =
+
+Enter your expression element
+
+Enter your expression element
+12
+-
+
+Enter your expression element
+3
+
+Enter your expression element
+*
+
+Enter your expression element
+5
+
+Enter your expression element
+*
+
+Enter your expression element
+(
+
+Enter your expression element
+2
+
+Enter your expression element
+-
+
+Enter your expression element
+(
+
+Enter your expression element
+4
+
+Enter your expression element
+/
+
+Enter your expression element
+2
+
+Enter your expression element
+*
+
+Enter your expression element
+12
+
+Enter your expression element
+
+Enter your expression element
+)
++
+
+Enter your expression element
+5
+
+Enter your expression element
+)
+
+Enter your expression element
+
+Enter your expression element
++
+8
+
+Enter your expression element
+=
+ 12 - 3 * 5 * ( 2 - ( 4 / 2 * 12 ) + 5 ) + 8
+
+result:
+12 - 3 * 5 * ( 2 - 24 + 5 ) + 8 
+12 - 3 * 5 * -17 + 8 
+275 
+would you test equal function?[y/n]
+n
+would you like continue?[y/n]
+n
+BUILD SUCCESSFUL (total time: 6 minutes 27 seconds)
